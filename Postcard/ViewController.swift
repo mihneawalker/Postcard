@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
+    @IBOutlet weak var secondLabel: UILabel!
     
     @IBOutlet weak var sendMailButton: UIButton!
     
@@ -34,7 +35,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         messageLabel.hidden = false
         messageLabel.text = enterNameTextField.text + enterMessageTextField.text
         messageLabel.textColor = UIColor.blueColor()
-        
+        secondLabel.text = enterNameTextField.text
         
         enterMessageTextField.resignFirstResponder()
         sendMailButton.setTitle("mail sent", forState: UIControlState.Normal)

@@ -96,6 +96,15 @@
                                     <rect key="frame" x="23" y="72" width="358" height="80"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gu-yY-flL">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="187" width="157" height="21"/>
+                                </variation>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="le message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tcs-iI-6na">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -112,6 +121,7 @@
                                 <exclude reference="LkY-N8-0O0"/>
                                 <exclude reference="1wi-TL-lBW"/>
                                 <exclude reference="Ndb-Zf-nhl"/>
+                                <exclude reference="5gu-yY-flL"/>
                                 <exclude reference="tcs-iI-6na"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="LkY-N8-0O0"/>
                                 <include reference="1wi-TL-lBW"/>
                                 <include reference="Ndb-Zf-nhl"/>
+                                <include reference="5gu-yY-flL"/>
                                 <include reference="tcs-iI-6na"/>
                             </mask>
                         </variation>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="tcs-iI-6na" id="1Bj-Tp-mWK"/>
                         <outlet property="enterNameTextField" destination="LkY-N8-0O0" id="dcD-ew-p0a"/>
                         <outlet property="messageLabel" destination="Ndb-Zf-nhl" id="0mb-e0-607"/>
+                        <outlet property="secondLabel" destination="5gu-yY-flL" id="I38-rh-qGh"/>
                         <outlet property="sendMailButton" destination="1wi-TL-lBW" id="2eu-Ga-asM"/>
                     </connections>
                 </viewController>
